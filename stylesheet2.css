@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(208, 235, 235);
+    
+  
+    
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+
+.image-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 4px 5px 2px  gray;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .image-button::before{
+
+    content: "🌲"
+
+  }
+  button:hover{
+    color: grey;
+    background-color: greenyellow;
+  }
+  
+  
+  .image-button img {
+    vertical-align: middle;
+    width: 30px; 
+    height: 50px; 
+    margin-right: 5px; 
+  }
+  
+  .image-button span {
+    vertical-align: middle;
+  }  
+.abc{
+    background-color: rgb(222, 208, 0);
+    border: #333 solid;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 0px 2px #333;
+}
+.ab{
+    background-color: rgb(222, 208, 0);
+    border: #333 solid;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 0px 2px #333;
+    width: 25%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    color: rgb(96, 8, 96);
+
+}
+.ac{
+    margin-left: 100px;
+}
+.ad{
+   float: left;
+   margin: 10px;
+
+
+}
+.ae{
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+    color: black;
+}
